@@ -1,0 +1,64 @@
+{
+  "excursions": [
+    {
+      "direction": "Gliwice",
+      "description": "\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\"",
+      "adultPrice": "50",
+      "childPrice": "200",
+      "id": 1
+    },
+    {
+      "direction": "Warszawa",
+      "description": "\"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\"",
+      "adultPrice": "250",
+      "childPrice": "125",
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "orderData": [
+        {
+          "orderTotalPrice": "1450PLN",
+          "clientName": "Kasia Panz",
+          "clientEmail": "kasiai@nteria.pl"
+        }
+      ],
+      "orderedExcursions": [
+        {
+          "direction": "Gliwice",
+          "totalPrice": "700",
+          "summaryPrices": "dorośli: 1 x 500 PLN, dzieci: 1 x 200PLN"
+        },
+        {
+          "direction": "Warszawa",
+          "totalPrice": "750",
+          "summaryPrices": "dorośli: 2 x 250 PLN, dzieci: 2 x 125PLN"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "orderData": [
+        {
+          "orderTotalPrice": "1775PLN",
+          "clientName": "Katarzyna Panz",
+          "clientEmail": "kasia@op.pl"
+        }
+      ],
+      "orderedExcursions": [
+        {
+          "direction": "Gliwice",
+          "totalPrice": "900",
+          "summaryPrices": "dorośli: 1 x 500 PLN, dzieci: 2 x 200PLN"
+        },
+        {
+          "direction": "Warszawa",
+          "totalPrice": "875",
+          "summaryPrices": "dorośli: 2 x 250 PLN, dzieci: 3 x 125PLN"
+        }
+      ],
+      "id": 2
+    }
+  ]
+}

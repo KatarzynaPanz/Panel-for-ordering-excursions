@@ -6,9 +6,9 @@ The aim of the project was to create the application, which can be used to order
 
 ## Features
 1. Two panels
-   a) client panel
+   - client panel
       - client is able to order excursions and to confirm it after fulfilling the contact form
-   b) admin panel 
+   - admin panel 
       - admin is able to manage excursions (modify, delete, add new)
 2. Validation at every field
 3. Excursions and clients orders are stored in a local database and retrieved using a local API (JSON Server).

@@ -1,5 +1,5 @@
 
-# Panel for ordering trips
+# Panel for ordering excursions
 
 ## About project
 The aim of the project was to create the application, which can be used to order excursions. There are two panels - for clients and admin. In the application JSON Server, REST API and fetch() were used. 

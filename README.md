@@ -2,21 +2,23 @@
 # Panel for ordering trips
 
 ## About project
-The aim of the project was to create the application, which can be used to order excursions. There are two panels - for clients and admin. In the application JSON server, REST API and fetch() were used. 
+The aim of the project was to create the application, which can be used to order excursions. There are two panels - for clients and admin. In the application JSON Server, REST API and fetch() were used. 
 
 ## Features
 1. Two panels were created:
    a) client panel
-      - client is able to order excursion and to confirm it after fulfilling the contact form
+      - client is able to order excursions and to confirm it after fulfilling the contact form
    b) admin panel 
       - admin is able to manage excursions (modify, delete, add new)
 2. Validation at every field
-3. Excursions ordered by clients are stored in .json file
+3. Excursions and clients orders are sent by local REST API created by JSON server and stored in excursions.json file.
+
 
 ## Technologies
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-4f736d?style=for-the-badge&logoColor=white)
 ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white)
 ![Babel](https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.JS-339933?style=for-the-badge&logo=Node.js&logoColor=white)

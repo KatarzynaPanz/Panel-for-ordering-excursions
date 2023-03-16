@@ -5,14 +5,13 @@
 The aim of the project was to create the application, which can be used to order excursions. There are two panels - for clients and admin. In the application JSON Server, REST API and fetch() were used. 
 
 ## Features
-1. Two panels were created:
+1. Two panels
    a) client panel
       - client is able to order excursions and to confirm it after fulfilling the contact form
    b) admin panel 
       - admin is able to manage excursions (modify, delete, add new)
 2. Validation at every field
-3. Excursions and clients orders are sent by local REST API created by JSON server and stored in excursions.json file.
-
+3. Excursions and clients orders are stored in a local database and retrieved using a local API (JSON Server).
 
 ## Technologies
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)

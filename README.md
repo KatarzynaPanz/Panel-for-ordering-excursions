@@ -24,7 +24,41 @@ The aim of the project was to create the application, which can be used to order
 ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 ## Installation and configuration
-The project uses node and npm. Having them installed, type into the terminal: npm i.
+The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/), follow the steps below to be able to use the application.
+- Install all npm packages using command:
+````
+npm i
+````
+- To start develop mode use command:
+````
+npm start
+````
+- If you don't have JSON server installed on your device use command:
+````
+npm install json-server -g
+````
+- To run JSON server use command:
+````
+json-server --watch ./data/excursions.json
+````
+- From now on, the application is available at:
+ - for client:
+````
+http://localhost:8080/index.html
+````
+ - for admin:
+ ````
+http://localhost:8080/admin.html
+````
+* Databasse are available at:
+ - for excursions:
+````
+http://localost:3000/excursions
+````
+ - for orders:
+ ````
+ http://localost:3000/orders
+ ````
 
 ## Author
 Linkedin - [Katarzyna Panz](https://www.linkedin.com/in/katarzyna-panz-584399228/)

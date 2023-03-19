@@ -42,23 +42,23 @@ npm install json-server -g
 json-server --watch ./data/excursions.json
 ````
 - From now on, the application is available at:
- - for client:
-````
-http://localhost:8080/index.html
-````
- - for admin:
- ````
-http://localhost:8080/admin.html
-````
+   a) for client:
+   ````
+   http://localhost:8080/index.html
+   ````
+   b) for admin:
+   ````
+   http://localhost:8080/admin.html
+   ````
 * Databasse are available at:
- - for excursions:
-````
-http://localost:3000/excursions
-````
- - for orders:
- ````
- http://localost:3000/orders
- ````
+   a) for excursions:
+   ````
+   http://localost:3000/excursions
+   ````
+   b) for orders:
+   ````
+   http://localost:3000/orders
+   ````
 
 ## Author
 Linkedin - [Katarzyna Panz](https://www.linkedin.com/in/katarzyna-panz-584399228/)

@@ -42,7 +42,6 @@ npm install json-server -g
 json-server --watch ./data/excursions.json
 ````
 - From now on, the application is available at:
-   ````
    a) for client:
    ````
    http://localhost:8080/index.html
